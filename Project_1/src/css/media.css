@@ -1,0 +1,92 @@
+@media(max-width: 970px)
+{
+	.main{
+		text-align: center;
+		
+	}
+	.wrap
+	{
+		display: table;
+		width: 100%;
+		height: 7rem;	
+	}
+	.wrap-block {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.hend-2 {
+		display: none;
+	}
+	.problems-list {
+	 margin-left: 15%;
+	}
+	.problems-list-bad {
+		margin-bottom: 30px;
+	}
+	.wooman {
+		display: none;
+	}
+	.WeWork {
+		background: none;
+	}
+	.contacts {
+		background: none;
+	}
+	.footer {
+		text-align: center;
+	}
+	.razrab {
+		text-align: center;
+	}
+
+}
+@media(max-width: 750px)
+{
+	.main{
+		text-align: center;
+		
+
+	}
+	.phone{
+		float: left;
+	}
+	.price-column {
+		margin-top: 20px;
+	}
+	.hend-2 {
+		display: none;
+	}
+	.problems-list {
+	 margin-left: 20%;
+	}
+}
+@media(max-width: 560px)
+{
+	.main{
+		text-align: center;
+
+	}
+	.wrap {
+	display: table;
+	width: 100%;
+	height: 7rem;
+	}
+	.wrap-block {
+		display: table-cell;
+		vertical-align: middle;
+		text-align: center;
+	}
+	.scheme {
+		text-align: center;
+	}
+	.scheme-box {
+		min-height: 200px;
+	}
+	.hend-2 {
+		display: none;
+	}
+	.problems {
+	 margin-left: 10%;
+	}
+}	
