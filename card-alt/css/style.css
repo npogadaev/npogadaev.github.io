@@ -46,6 +46,7 @@ header small
 	text-decoration: none;
  	box-shadow: 10px 17px 34px 6px rgba(0, 0, 0, 0.20);;
 	border-radius: 50px;
+	border: none;
 	background-color: #ffffff;
 	padding: 17px 55px;
 	color: #ff6903;
@@ -56,6 +57,7 @@ header small
 	-webkit-transition: 02s;
 	-o-transition: 02s;
 	transition: 02s;
+	outline: none;
 }
 .button:hover
 {
@@ -184,7 +186,7 @@ footer
 	background: #fff;
 	color: #ff6903;
 }
-
+/*Медиа*/
 @media(max-width: 1200px)
 {
 	.header-pre{
@@ -236,3 +238,4 @@ footer
 		text-align: center;
 	}
 }
+
