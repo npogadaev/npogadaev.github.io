@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=devise-width, initial-scale=1">
+	<title>Calculator</title>
+	<!-- Faficon -->
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+	<!-- Шрифты -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+	<!-- Подключения -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="calcul">
+		<div class="tab">
+			<div class="tab-left active">Лэндинг</div>
+			<div class="tab-right">Многостраничник</div>
+		</div>
+		<div class="blocks" id="blocks-block">
+			<div class="blocks-title">Количество блоков</div>
+			<input type="number" class="counter" id="counter-blok">
+		</div>
+		<div class="blocks" id="pages-block">
+			<div class="blocks-title">Количество страниц</div>
+			<input type="number" class="counter" id="counter-pages">
+		</div>
+		<div class="blocks">
+			<div class="blocks-title">Сколько часов на проект</div>
+			<input type="number" class="counter" id="counter-hours">
+		</div>
+		<div class="blocks">
+			<div class="blocks-title">Стоимость вашего часа</div>
+			<input type="number" class="counter" id="counter-rate">
+		</div>
+		<div class="addiction">
+			<div class="addiction-title">Дополнительно</div>
+			<div class="addiction-block">
+				<input class="checkbox" type="checkbox" id="changes-check"> <br>
+				<span>Возможность редактировать текст на сайте</span>
+			</div>
+			<div class="addiction-block">
+				<input class="checkbox" type="checkbox" id="changes-cms">
+			    <span>Установка на CMS</span>
+			</div>
+		</div>
+		<div class="total">
+			<span>Общая стоимость</span>
+			<input value="5000" class="total-count" type="text" id="total-value">
+		</div>	
+	</div>
+	
+<!--Скрипты  -->
+<script src="js/main.js"></script>	
+</body>
+</html>
