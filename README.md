@@ -1,1 +1,1 @@
-# laight-x.github.io
+laight-x.github.io/card-alt/D.html
