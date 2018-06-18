@@ -32,6 +32,8 @@
 	height: 30px;
 	border: none;
 	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 14px;
 }
 
 .list-btn {
