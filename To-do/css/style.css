@@ -24,7 +24,6 @@
 }
 
 .list-title {
-	font-family: 'Pacifico', cursive;
 	color: #ffffff;
 }
 
@@ -41,7 +40,6 @@
 	border: none;
 	border-radius: 10px;
 	background-color: #E74C3C;
-	font-family: 'Pacifico', cursive;
 	font-size: 18px;
 	color: #FFF;
 	cursor: pointer;
