@@ -32,7 +32,6 @@ window.addEventListener('DOMContentLoaded', () => {
 			list.appendChild(li);
 		}
 
-		inputValue = '';
 		let span = document.createElement('span');
 		let t = document.createTextNode('\u00D7');
 		span.appendChild(t);
@@ -43,6 +42,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	let btn = document.querySelector('.list-btn');
 	btn.addEventListener('click', newElement);
+	btn.onclick = () => {document.querySelector('.list-input').value = '';}
 
 	if (localStorage.getItem('toDo')) {
 		list.innerHTML = localStorage.getItem('toDo');
