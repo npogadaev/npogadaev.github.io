@@ -1,0 +1,13 @@
+.title {
+	text-align: center;
+	color: #008000;
+}
+
+.canvas-wrap {
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background: #FAFAD2;
+	box-sizing: border-box;
+	border: 5px solid #008000;
+}
