@@ -2,3 +2,4 @@
 # laight-x.github.io/To-do/index.html
 # laight-x.github.io/snake-JS/index.html
 # laight-x.github.io/timer/index.html
+# laight-x.github.io/nerd (копия)/index.html
