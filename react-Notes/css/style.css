@@ -1,0 +1,118 @@
+* {
+	box-sizing: border-box;
+    outline: 0;
+}
+
+#root {
+	width: 100%;
+}
+
+.app-section {
+	max-width: 1000px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: auto;
+}
+
+.app-title {
+	font-family: 'Galada', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notes {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.note {
+    width: 240px;
+    height: auto;
+    background-color: #ADD4FF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: box-shadow .3s;
+    position: relative;
+}
+
+    .note:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+    .note__delete-icon {
+        position: absolute;
+        top:5px;
+        right:5px;
+        display: none;
+        color: rgba(0,0,0,0.6);
+        cursor: pointer;
+    }
+
+    .note:hover .note__delete-icon {
+        display: block;
+    }
+
+.editor {
+    width: 100%;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+    .editor__textarea {
+        width: 100%;
+        resize: none;
+        margin: 5px;
+        font-size: 14px;
+        border: none;
+        font-weight: 300;
+    }
+
+    .editor__textarea:focus {
+        outline: 0;
+    }
+
+    .editor__button {
+        align-self: flex-end;
+        width: 100px;
+        background-color:#3b5998;
+        border-radius:28px;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: 'Galada', cursive;
+        font-size:14px;
+        padding:8px 8px;
+        text-transform: uppercase;
+        text-decoration:none;
+        border: none;
+    }
+
+    .editor__button:hover {
+        background-color:#31a6ff;
+    }
+
+    .editor__button:active {
+        position:relative;
+        top:1px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
