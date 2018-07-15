@@ -41,7 +41,6 @@
 .note {
     width: 240px;
     height: auto;
-    background-color: #ADD4FF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border-radius: 2px;
     padding: 10px;
@@ -115,4 +114,35 @@
         position:relative;
         top:1px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+
+.select {
+    width: 10%;
+    min-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+
+    .select__item {
+        width: 16px;
+        height: 16px;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .select__item-red {
+        background-color: #fc0000;
+    }
+
+    .select__item-yellow {
+        background-color: #fcfc00;
+    }
+
+    .select__item-green {
+        background-color: #00fc2e;
     }

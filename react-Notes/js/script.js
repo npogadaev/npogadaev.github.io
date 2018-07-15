@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Masonry from 'react-masonry-component';
 
-const defaultColor = '#ADD4FF';
+const red = {backgroundColor: '#fc0000' }
 const massonryOptions = {
 	columnWidth: 240,
 	gutter: 10,
@@ -28,7 +28,8 @@ class NoteEditor extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			text: ''
+			text: '',
+			color: '#ADD4FF' 
 		};
 	};
 
@@ -36,10 +37,23 @@ class NoteEditor extends React.Component {
 		this.setState({text: e.target.value});
 	};
 
+	handleColorChangeRed = () => {
+		this.setState({color: '#fc0000'});
+	};
+
+	handleColorChangeYellow = () => {
+		this.setState({color: '#fcfc00'});
+	};
+
+	handleColorChangeGreen = () => {
+		this.setState({color: '#00fc2e'});
+	};
+
+
 	handleNoteAdd = () => {
 		const newNote = {
 			text: this.state.text,
-			color: defaultColor,
+			color: this.state.color,
 			id: Date.now()
 		};
 
@@ -62,6 +76,11 @@ class NoteEditor extends React.Component {
 					value={this.state.text}
 					onChange={this.handleTextChange}
 				/>
+				<div className="select">
+					<button className="select__item select__item select__item-red" onClick={this.handleColorChangeRed}></button>
+					<button className="select__item select__item-yellow" onClick={this.handleColorChangeYellow}></button>
+					<button className="select__item select__item-green" onClick={this.handleColorChangeGreen}></button>
+				</div>
 				<button className="editor__button" onClick={this.handleNoteAdd}>
 					Добавить
 				</button>
