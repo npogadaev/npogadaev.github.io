@@ -1,0 +1,48 @@
+.books-navigation {
+    width: 20%;
+    height: 91.8vh;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+
+    &-item {
+        width: 70%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10%;
+        }
+
+        &__link {
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            color: #000000;
+            text-decoration: none;
+
+            &:hover {
+                color: #FFCC00;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.books-grid {
+    width: 80%;
+    height: auto;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
