@@ -9,7 +9,6 @@
 
 .app-section {
 	max-width: 1000px;
-	width: 100%;
 	height: auto;
 	display: flex;
 	flex-direction: column;
@@ -29,7 +28,7 @@
 }
 
 .notes {
-	width: 100%;
+	width: 1000px;
 	height: auto;
 	display: flex;
 	flex-direction: row;
@@ -39,7 +38,7 @@
 }
 
 .note {
-    width: 240px;
+    min-width: 240px;
     height: auto;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border-radius: 2px;
