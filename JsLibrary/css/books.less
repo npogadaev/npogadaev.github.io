@@ -46,3 +46,40 @@
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
+//Media
+
+@media(max-width: 1024px) {
+    .books-grid {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@media(max-width: 425px) {
+    .books-navigation {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &-item {
+            width: 30%;
+            flex-direction: column;
+            margin-bottom: 10px;
+
+            img {
+                margin-right: 0;
+            }
+
+            &__link {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .books-grid {
+        width: 100%;
+    }
+}
