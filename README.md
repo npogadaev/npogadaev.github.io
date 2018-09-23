@@ -1,7 +1,7 @@
 # https://laight-x.github.io/react-Notes/index.html - Notes
 # https://laight-x.github.io/JsLibrary/index.html - Library
 # https://laight-x.github.io/nerd%20(%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F)/index.html - nerd
-# https://laight-x.github.io/Blog/index.html
+# https://laight-x.github.io/Blog/index.html - Blog
 # https://laight-x.github.io/To-do/index.html - To-do
 # https://laight-x.github.io/snake-JS/index.html - snake
 # https://laight-x.github.io/timer/index.html - timer
