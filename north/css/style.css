@@ -9,6 +9,10 @@
 	margin: 0; 
 }
 
+body {
+    background: url(../img/background/main-bg-min.jpg) center 640px no-repeat;
+}
+
 a {
     text-decoration: none;
 }
@@ -38,8 +42,6 @@ a {
     width: 1250px;
     height: auto;
     margin: auto;
-    /* background: url(../img/background/main-bg-min.jpg) center;
-    background-size: contain; */
 }
 
 .title {
@@ -996,6 +998,11 @@ font-size: 15px;
 }
 
 /* footer */
+footer {
+    max-width: 1250px;
+    margin: auto
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -1003,8 +1010,7 @@ font-size: 15px;
     align-items: center;
     width: 790px;
     padding-bottom: 80px;
-    margin-left: auto;
-    margin-right: 180px;
+    margin-left: 390px;
 }
 
 .footer-title {
