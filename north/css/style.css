@@ -104,7 +104,7 @@ font-size: 15px;
 }
 
 .menu-list__item {
-    width: 198px;
+    width: 210px;
     height: 25px;
     padding: 4px 0 4px 6px;
     font-family: "Roboto", Tahoma, sans-serif;
@@ -1002,6 +1002,15 @@ font-size: 15px;
     background-color: #ffffff;
 }
 
+.slider--answers {
+    position: relative;
+    width: 791px;
+    height: 506px;
+    padding: 100px 60px;
+    margin-bottom: 70px;
+    background: url(../img/background/Combined_Shape.jpg) no-repeat center;
+}
+
 .slider__title {
     margin-bottom: 50px;
     text-align: center;
@@ -1023,18 +1032,42 @@ font-size: 15px;
     background: #585dad;
 }
 
-.slider-btn--left {
+.slider-btn__left {
     top: 205px;
     left: 0;
     padding-right: 10px;
     border-radius: 0 100% 100% 0 / 0 50% 50% 0;
 }
 
-.slider-btn--right {
+.slider-btn__left--answers {
+    top: 225px;
+    left: 20px;
+    color: #dd6c5c;
+    background: #d4d7f9;
+}
+
+.slider-btn__left--answers:hover {
+    color: #f1432c;
+    background: #d4d7f9;
+}
+
+.slider-btn__right {
     top: 205px;
     right: 0;
     padding-left: 10px;
     border-radius: 100% 0  0 100% / 50% 0 0 50%;
+}
+
+.slider-btn__right--answers {
+    top: 225px;
+    right: 20px;
+    color: #dd6c5c;
+    background: #d4d7f9;
+}
+
+.slider-btn__right--answers:hover {
+    color: #f1432c;
+    background: #d4d7f9;
 }
 
 .slider-block {
@@ -1087,6 +1120,14 @@ font-size: 15px;
     align-items: center;
 }
 
+.slider-dots--answers {
+    top: 400px;
+}
+
+.slider-dots__elem--answers {
+    background-color: #ffffff;
+}
+
 .slider-dots__elem {
     width: 10px;
     height: 10px;
@@ -1094,6 +1135,10 @@ font-size: 15px;
     border-radius: 50%;
     cursor: pointer;
 
+}
+
+.slider-dots__elem--answers {
+    background-color: #ffffff;
 }
 
 .slider-dots__elem--active {
