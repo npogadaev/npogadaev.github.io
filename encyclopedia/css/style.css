@@ -20,7 +20,8 @@ body {
 }
 
 a {
-    text-decoration: none;
+    color: green;
+    text-decoration: none;    
 }
 
 a:hover {
@@ -133,10 +134,6 @@ a:hover {
     font-weight: 700;
 }
 
-.description__link {
-    color: #50c878;
-}
-
 .description__text {
     margin: 20px 0 20px 0;
     font-size: 16px;
@@ -157,7 +154,7 @@ a:hover {
 }
 
 .link-block__elem {
-    color: #50c878;
+    color: green;
     margin-bottom: 5px;
 }
 
@@ -182,7 +179,7 @@ a:hover {
     margin-bottom: 10px;
     font-family: 16px;
     color: #ffffff;
-    background: #006400;
+    background: rgba(0, 100, 0, 0.8);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -294,14 +291,6 @@ a:hover {
 .footer-contacts__item {
     font-size: 16px;
     font-weight: 400;
-}
-
-.footer-contacts__item a {
-    color: #50c878;
-}
-
-.footer-contacts__item a:hover {
-    color: gold;
 }
 
 /* Media */

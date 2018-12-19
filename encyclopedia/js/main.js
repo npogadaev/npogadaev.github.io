@@ -18,3 +18,14 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     });
 });
+
+// info
+window.addEventListener('scroll', () => {
+    const infoList = document.querySelector('.info-navigation');
+
+    if (window.pageYOffset >= 220 & window.innerWidth >= 1100) {
+        infoList.classList.add('info-navigation--sticky')
+    } else if (window.pageYOffset < 220 & infoList.classList.contains('info-navigation--sticky')) {
+        infoList.classList.remove('info-navigation--sticky')
+    }
+});
