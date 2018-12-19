@@ -85,7 +85,7 @@ a:hover {
     height: 40px;
     color: #ffffff;
     font-size: 14px;
-    font-weight: 400px;
+    font-weight: 400;
     background: #1f1f1f;
     border-left: 1px solid gray;
     border-bottom: 3px solid green; 
@@ -178,7 +178,7 @@ a:hover {
     min-height: 40px;
     padding: 10px;
     margin-bottom: 10px;
-    font-family: 16px;
+    font-size: 16px;
     color: #ffffff;
     background: rgba(0, 100, 0, 0.8);
     border-radius: 5px;
