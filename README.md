@@ -7,3 +7,4 @@
 # [Snake](https://laight-x.github.io/snake-JS/index.html)
 # [Timer](https://laight-x.github.io/timer/index.html) 
 # [Calculator](https://laight-x.github.io/calculator/index.html)
+# [Encyclopedia](https://laight-x.github.io/encyclopedia/index.html)
