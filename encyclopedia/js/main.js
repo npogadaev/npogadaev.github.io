@@ -15,17 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 listContent[i].style.maxHeight = '0px';
             }
             icons[i].style.transform = (transform === 'none') ? 'rotate(-180deg)' : 'none';
-        })
+        });
     });
-});
 
 // info
-window.addEventListener('scroll', () => {
-    const infoList = document.querySelector('.info-navigation');
+    window.addEventListener('scroll', () => {
+        const infoList = document.querySelector('.info-navigation');
 
-    if (window.pageYOffset >= 220 && window.innerWidth >= 1100) {
-        infoList.classList.add('info-navigation--sticky')
-    } else if (window.pageYOffset < 220 && infoList.classList.contains('info-navigation--sticky')) {
-        infoList.classList.remove('info-navigation--sticky')
-    }
+        if (window.pageYOffset >= 220 && window.innerWidth >= 1100) {
+            infoList.classList.add('info-navigation--sticky')
+        } else if (window.pageYOffset < 220 && infoList.classList.contains('info-navigation--sticky')) {
+            infoList.classList.remove('info-navigation--sticky')
+        }
+    });
+
 });
