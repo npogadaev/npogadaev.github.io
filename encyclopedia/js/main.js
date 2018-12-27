@@ -18,15 +18,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-// info
-    window.addEventListener('scroll', () => {
-        const infoList = document.querySelector('.info-navigation');
+    // menu
+    const btn = document.querySelector('.menu-btn');
+    const menu = document.querySelector('.menu');
 
-        if (window.pageYOffset >= 220 && window.innerWidth >= 1100) {
-            infoList.classList.add('info-navigation--sticky')
-        } else if (window.pageYOffset < 220 && infoList.classList.contains('info-navigation--sticky')) {
-            infoList.classList.remove('info-navigation--sticky')
+    btn.addEventListener('click', () => {
+        if (btn.classList.contains('menu-btn--active')) {
+            btn.classList.remove('menu-btn--active');
+            menu.style.display = 'none';
+        } else {
+            btn.classList.add('menu-btn--active');
+            menu.style.display = 'flex';
         }
     });
-
 });
