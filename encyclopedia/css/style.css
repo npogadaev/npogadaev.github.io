@@ -91,6 +91,10 @@ a:hover {
     border-bottom: 3px solid green; 
 }
 
+.menu-item--active {
+    background: #1f1f1f;
+    border-bottom: 3px solid gold; 
+}
 
 .menu-item:hover {
     background: #1f1f1f;
