@@ -1,4 +1,3 @@
-# [React ToDo](https://npogadaev.github.io/React-ToDo/index.html)  
 # [Notes](https://npogadaev.github.io/react-Notes/index.html)
 # [Library](https://npogadaev.github.io/JsLibrary/index.html)
 # [Nerd](https://npogadaev.github.io/nerd/index.html) 
