@@ -2,4 +2,3 @@
 # [Library](https://npogadaev.github.io/JsLibrary/index.html)
 # [Nerd](https://npogadaev.github.io/nerd/index.html) 
 # [Calculator](https://npogadaev.github.io/calculator/index.html)
-# [Encyclopedia](https://npogadaev.github.io/encyclopedia/index.html)
